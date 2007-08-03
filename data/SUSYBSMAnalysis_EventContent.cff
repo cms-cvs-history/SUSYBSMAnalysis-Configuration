@@ -1,0 +1,23 @@
+#
+# SUSYBSMAnalysis event content
+# 
+# the accumulated event contents should not be used, 
+# but it's important that all EventContent definitions are included here
+#
+
+block SUSYBSMAnalysisEventContent = {
+  untracked vstring outputCommands = {
+  }
+}
+
+
+#WG1
+
+#WG2
+
+#WG3
+
+#WG4
+
+include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSkimEventContent.cff"
+replace SUSYBSMAnalysisEventContent.outputCommands +=hEEPSkimEventContent.outputCommands
