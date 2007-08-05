@@ -15,6 +15,21 @@ block SUSYBSMAnalysisEventContent = {
 
 #WG2
 
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDControlMETEventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDEventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiMuonEventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiElecEventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYSMBackgrEventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopMuonEventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecEventContent.cff"
+replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYQCDControlMETEventContent.outputCommands
+replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYQCDEventContent.outputCommands
+replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYdiMuonEventContent.outputCommands
+replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYdiElecEventContent.outputCommands
+replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYSMBackgrEventContent.outputCommands
+replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYTopMuonEventContent.outputCommands
+replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYTopElecEventContent.outputCommands
+
 #WG3
 
 #WG4

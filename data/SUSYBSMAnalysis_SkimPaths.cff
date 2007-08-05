@@ -17,13 +17,13 @@
 #   WG2
 ###################################################
 
-include "SUSYBSMAnalysis/CSA07Skims/data/HadSUSYQCDControlMETPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/HadSUSYQCDPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/HadSUSYdiMuonPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/HadSUSYdiElecPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/HadSUSYSMBackgrPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/HadSUSYTopMuonPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/HadSUSYTopElecPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDControlMETPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiMuonPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiElecPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYSMBackgrPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopMuonPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecPath.cff"
 
 ###################################################
 #   WG3

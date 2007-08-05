@@ -17,6 +17,13 @@
 #   WG2
 ###################################################
 
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDControlMETOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiMuonOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiElecOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYSMBackgrOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopMuonOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecOutputModule.cfi"
 
 
 ###################################################
