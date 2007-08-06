@@ -13,6 +13,23 @@ block SUSYBSMAnalysisEventContent = {
 
 #WG1
 
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_1Jets_MET_EventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_2Jets_MET_EventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_2Elec_2Jets_MET_EventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_1Jets_MET_EventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_2Jets_MET_EventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_1Elec_2Jets_MET_EventContent.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_2Muon_0Elec_2Jets_MET_EventContent.cff"
+replace SUSYBSMAnalysisEventContent.outputCommands +=lepSUSY_0Muon_1Elec_1Jets_MET_EventContent.outputCommands 
+replace SUSYBSMAnalysisEventContent.outputCommands +=lepSUSY_0Muon_1Elec_2Jets_MET_EventContent.outputCommands 
+replace SUSYBSMAnalysisEventContent.outputCommands +=lepSUSY_0Muon_2Elec_2Jets_MET_EventContent.outputCommands 
+replace SUSYBSMAnalysisEventContent.outputCommands +=lepSUSY_1Muon_0Elec_1Jets_MET_EventContent.outputCommands 
+replace SUSYBSMAnalysisEventContent.outputCommands +=lepSUSY_1Muon_0Elec_2Jets_MET_EventContent.outputCommands 
+replace SUSYBSMAnalysisEventContent.outputCommands +=lepSUSY_1Muon_1Elec_2Jets_MET_EventContent.outputCommands 
+replace SUSYBSMAnalysisEventContent.outputCommands +=lepSUSY_2Muon_0Elec_2Jets_MET_EventContent.outputCommands 
+
+
+
 #WG2
 
 include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDControlMETEventContent.cff"

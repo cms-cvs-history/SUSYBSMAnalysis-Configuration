@@ -11,6 +11,13 @@
 #   WG1
 ###################################################
 
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_1Jets_MET_Path.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_2Jets_MET_Path.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_2Elec_2Jets_MET_Path.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_1Jets_MET_Path.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_2Jets_MET_Path.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_1Elec_2Jets_MET_Path.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_2Muon_0Elec_2Jets_MET_Path.cff"
 
 
 ###################################################
@@ -41,6 +48,3 @@ include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecPath.cff"
 #HEEP Paths
 include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalHighEtPath.cff"
 include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalMedEtPath.cff"
-
-
-
