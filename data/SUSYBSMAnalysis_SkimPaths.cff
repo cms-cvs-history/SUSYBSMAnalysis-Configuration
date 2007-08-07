@@ -36,6 +36,7 @@ include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecPath.cff"
 #   WG3
 ###################################################
 
+include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonPath.cff"
 
 
 ###################################################

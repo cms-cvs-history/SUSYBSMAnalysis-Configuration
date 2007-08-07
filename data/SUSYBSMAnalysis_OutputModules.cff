@@ -37,6 +37,7 @@ include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecOutputModule.cfi"
 #   WG3
 ###################################################
 
+include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonOutputModule.cfi"
 
 
 ###################################################

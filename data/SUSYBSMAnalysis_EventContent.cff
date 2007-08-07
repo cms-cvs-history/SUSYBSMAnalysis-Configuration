@@ -49,6 +49,11 @@ replace SUSYBSMAnalysisEventContent.outputCommands += hadSUSYTopElecEventContent
 
 #WG3
 
+include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonEventContent.cff"
+replace SUSYBSMAnalysisEventContent.outputCommands += hscpHighPtMuonEventContent.outputCommands
+ 
+
+
 #WG4
 
 include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSkimEventContent.cff"
