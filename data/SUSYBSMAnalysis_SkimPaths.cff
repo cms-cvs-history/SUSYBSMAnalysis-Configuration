@@ -43,9 +43,10 @@ include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonPath.cff"
 #   WG4
 ###################################################
 
-
-
-
 #HEEP Paths
 include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalHighEtPath.cff"
 include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalMedEtPath.cff"
+
+# TDM
+include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonLowPtPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonHighPtPath.cff"

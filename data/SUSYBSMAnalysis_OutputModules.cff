@@ -44,11 +44,10 @@ include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonOutputModule.cfi"
 #   WG4
 ###################################################
 
-
-
-
 #HEEP skims
 include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalHighEtOutputModule.cfi"
 include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalMedEtOutputModule.cfi"
 
-
+#TDM
+include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonHighPtOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonLowPtOutputModule.cfi"
