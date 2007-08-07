@@ -37,6 +37,7 @@ include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecPath.cff"
 ###################################################
 
 include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonPath.cff"
+include "SUSYBSMAnalysis/CSA07Skims/data/hscpDeDxPath.cff"
 
 
 ###################################################

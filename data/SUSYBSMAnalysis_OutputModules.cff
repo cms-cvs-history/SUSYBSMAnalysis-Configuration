@@ -38,6 +38,7 @@ include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecOutputModule.cfi"
 ###################################################
 
 include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonOutputModule.cfi"
+include "SUSYBSMAnalysis/CSA07Skims/data/hscpDeDxOutputModule.cfi"
 
 
 ###################################################
