@@ -7,48 +7,14 @@
 
 
 
-###################################################
-#   WG1
-###################################################
 
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_1Jets_MET_OutputModules.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_2Jets_MET_OutputModules.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_2Elec_2Jets_MET_OutputModules.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_1Jets_MET_OutputModules.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_2Jets_MET_OutputModules.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_1Elec_2Jets_MET_OutputModules.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_2Muon_0Elec_2Jets_MET_OutputModules.cff"
+include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_OutputModule.cfi"
+include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_OutputModule.cfi"
+include "SUSYBSMAnalysis/Skimming/data/SusyMuon_OutputModule.cfi"
 
+#include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_HLT_OutputModule.cfi"
+#include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_HLT_OutputModule.cfi"
+#include "SUSYBSMAnalysis/Skimming/data/SusyMuon_HLT_OutputModule.cfi"
 
-###################################################
-#   WG2
-###################################################
+include "SUSYBSMAnalysis/Skimming/data/SusyMuonHits_OutputModule.cfi"
 
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDControlMETOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiMuonOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiElecOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYSMBackgrOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopMuonOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecOutputModule.cfi"
-
-
-###################################################
-#   WG3
-###################################################
-
-include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/hscpDeDxOutputModule.cfi"
-
-
-###################################################
-#   WG4
-###################################################
-
-#HEEP skims
-include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalHighEtOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalMedEtOutputModule.cfi"
-
-#TDM
-include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonHighPtOutputModule.cfi"
-include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonLowPtOutputModule.cfi"

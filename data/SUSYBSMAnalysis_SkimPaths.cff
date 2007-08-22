@@ -3,51 +3,12 @@
 #  Collection of all Skim paths for SUSYBSM
 #
 ##################################################
+include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_SkimPaths.cff"
+include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_SkimPaths.cff"
+include "SUSYBSMAnalysis/Skimming/data/SusyMuon_SkimPaths.cff"
 
+#include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_HLT_SkimPaths.cff"
+#include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_HLT_SkimPaths.cff"
+#include "SUSYBSMAnalysis/Skimming/data/SusyMuon_HLT_SkimPaths.cff"
 
-
-
-###################################################
-#   WG1
-###################################################
-
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_1Jets_MET_Path.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_1Elec_2Jets_MET_Path.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_0Muon_2Elec_2Jets_MET_Path.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_1Jets_MET_Path.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_0Elec_2Jets_MET_Path.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_1Muon_1Elec_2Jets_MET_Path.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/lepSUSY_2Muon_0Elec_2Jets_MET_Path.cff"
-
-
-###################################################
-#   WG2
-###################################################
-
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDControlMETPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYQCDPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiMuonPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYdiElecPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYSMBackgrPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopMuonPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/hadSUSYTopElecPath.cff"
-
-###################################################
-#   WG3
-###################################################
-
-include "SUSYBSMAnalysis/CSA07Skims/data/hscpHighPtMuonPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/hscpDeDxPath.cff"
-
-
-###################################################
-#   WG4
-###################################################
-
-#HEEP Paths
-include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalHighEtPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/HEEPSignalMedEtPath.cff"
-
-# TDM
-include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonLowPtPath.cff"
-include "SUSYBSMAnalysis/CSA07Skims/data/tevDiMuonHighPtPath.cff"
+include "SUSYBSMAnalysis/Skimming/data/SusyMuonHits_SkimPaths.cff"
