@@ -12,9 +12,9 @@ include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_OutputModule.cfi"
 include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_OutputModule.cfi"
 include "SUSYBSMAnalysis/Skimming/data/SusyMuon_OutputModule.cfi"
 
-#include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_HLT_OutputModule.cfi"
-#include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_HLT_OutputModule.cfi"
-#include "SUSYBSMAnalysis/Skimming/data/SusyMuon_HLT_OutputModule.cfi"
+include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_HLT_OutputModule.cfi"
+include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_HLT_OutputModule.cfi"
+include "SUSYBSMAnalysis/Skimming/data/SusyMuon_HLT_OutputModule.cfi"
 
 include "SUSYBSMAnalysis/Skimming/data/SusyMuonHits_OutputModule.cfi"
 

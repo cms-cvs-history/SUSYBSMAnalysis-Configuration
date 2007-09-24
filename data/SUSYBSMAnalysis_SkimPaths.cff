@@ -7,8 +7,8 @@ include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_SkimPaths.cff"
 include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_SkimPaths.cff"
 include "SUSYBSMAnalysis/Skimming/data/SusyMuon_SkimPaths.cff"
 
-#include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_HLT_SkimPaths.cff"
-#include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_HLT_SkimPaths.cff"
-#include "SUSYBSMAnalysis/Skimming/data/SusyMuon_HLT_SkimPaths.cff"
+include "SUSYBSMAnalysis/Skimming/data/SusyJetMET_HLT_SkimPaths.cff"
+include "SUSYBSMAnalysis/Skimming/data/SusyElectronPhoton_HLT_SkimPaths.cff"
+include "SUSYBSMAnalysis/Skimming/data/SusyMuon_HLT_SkimPaths.cff"
 
 include "SUSYBSMAnalysis/Skimming/data/SusyMuonHits_SkimPaths.cff"
