@@ -10,7 +10,7 @@ module hEEPExpressOutputModule = PoolOutputModule {
   untracked string fileName = "hEEPExpress.root"
   using AODSIMHEEPExpressEventContent
   using hEEPExpressEventSelection
-  untracked PSet dataset = {
+  untracked PSet datasets = {
     untracked string dataTier = "USER"
     untracked string filterName = "hEEPExpress"
   }
